@@ -16,5 +16,5 @@ inputAll.forEach((el) => {
 
   el.placeholder = formattedName;
 
-  el.before(label);
+  el.parentElement.append(label);
 });
